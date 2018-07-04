@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html">
+<h:head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title>#{pageTitle}</title>
+    <link rel="stylesheet" type="text/css" href="mainCss.css"/>
+</h:head>
+<h:body>
+    Content is below this:
+    <hr/>
+
+    <div class="wrapper">
+
+
+
+        <div class="header">
+
+        </div>
+
+
+
+
+
+
+        <div class="sidebar" id="mySidebar">
+
+
+            <a href="index.html" class="active">Home</a>
+            <a href="produkte.html">Produkte</a>
+            <a href="hinzufuegen.html">AddProduct</a>
+
+        </div>
+
+
+
+
+
+
+        <div class="main">
+            <div class="headline"><p>Imperium Hardware</p></div>
+
+
+            <div class="content">
+                Seit über einem Jahr bieten wir Ihnen
+                kompetente und zuverlässige Beratung bei allen Fragen rund um den
+                Computer, Notebooks, Server und deren Komponenten. Wir beraten Sie
+                gerne und erstellen Ihr PC-System individuell nach Ihren Wünschen
+                und Bedürfnissen, mit Zeit und Geduld. Mit unserem PC-Konfigurator
+                bieten wir Ihnen online die Möglichkeit, Ihren Wunsch-PC selbständig
+                zusammenzustellen. Der PC-Konfigurator ist so konstruiert, dass die
+                Komponenten technisch aufeinander abgestimmt sind.
+                Selbstverständlich überprüfen wir jede Bestellung noch einmal
+                daraufhin, ob die gewünschte Zusammenstellung technisch sinnvoll und
+                plausibel ist. Dank unserer eigenen PC-Service-Abteilung können Sie
+                auch ausgewählte Hardwareteile bei uns im Online-Shop für die
+                PC-Selbstkonfiguration bestellen.
+                <ui:insert name="content"/>
+
+            </div>
+        </div>
+
+        <div class="footer"><h1 id="footerText">&amp;#169Imperium-Hardware 2017 </h1></div>
+
+     <!--   <ui:insert name="content"/>  -->
+    </div>
+
+
+</h:body>
+</html>
